@@ -1,14 +1,8 @@
----
-title: ''
-output: html_document
-date: "2025-05-08"
----
+
 
 <center>
 
-::: {style="margin: auto; display: block"}
-![](https://appliedsciences.nasa.gov/sites/default/files/styles/homepage_hero/public/2025-03/Website_Header_2.jpg.webp?itok=GMagiGhW){style="margin: auto" width="524"}
-:::
+![](https://appliedsciences.nasa.gov/sites/default/files/styles/homepage_hero/public/2025-03/Website_Header_2.jpg.webp?itok=GMagiGhW)
 
 # Introduction to the Integration of Animal Tracking and Remote Sensing
 
