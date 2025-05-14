@@ -77,8 +77,30 @@ Guest Instructors: Dr. Morgan Gilmour (NASA Ames Research Center), Claire Teitel
 
 ------------------------------------------------------------------------
 
-### 
+### In this repository
 
+-	1-append_evars_ARSET.R
+  -	Script to demonstrate downloading and extracting remotely sensed environmental covariates
+-	2-pseudo-absence_ARSET.R
+  -	Script to simulate background pseudo-absences for Species Distribution Model
+-	3-make_presabs_dataset_ARSET.R
+  -	Script to make presence-absence dataframe that will be used in Species Distribution Model
+-	4-BRT_ARSET.R
+  -	Script to run Boosted Regressoin Tree that will be used in Species Distribution Model
+-	5-Predict_SDM_ARSET.R
+  -	Script to apply Boosted Regression Tree model to grid of unsampled region
+-	6-eval_SDM_ARSET.R
+  -	Script to evaluate Species Distribution Model
+-	Functions_for_animal_tracking_ARSET2025.R
+  -	Functions used in ARSET training
+-	Deer_SSF.R
+  -	Script to run a step-selection function for a red deer. This script draws from the "amt" R package vignette on step-selection functions: https://cran.r-project.org/web/packages/amt/vignettes/p4_SSF.html
+- LC_500m_crop.tif
+  - MODIS MCD12Q1 Version 6.1 annual land cover product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MCD12Q1.006
+- NDVI_250m_16d_crop.tif
+  - MODIS MCD13Q1 16-day vegetation index product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MOD13Q1.061
+
+------------------------------------------------------------------------
 #### About NASA ARSET
 
 ARSET offers online and in-person trainings for beginners and advanced practitioners alike. Trainings cover a range of datasets, web portals, and analysis tools and their application to air quality, agriculture, disasters, land, and water resource management. Since 2009, the program has reached more than 100,000 participants from 183 countries and more than 17,000 organizations worldwide.
@@ -93,7 +115,16 @@ ARSET offers online and in-person trainings for beginners and advanced practitio
 
 ------------------------------------------------------------------------
 
-##### Citation
+##### Citations
 
+**This Training:**
 (2025). *ARSET - Introduction to the Integration of Animal Tracking and Remote Sensing*. NASA Applied Remote Sensing Training Program (ARSET). <https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-integration-animal-tracking-and-remote-sensing>
+
+**Data Information:**
+- Species Distribution Model functions adapted from Hazen et al. 2021 "Where did they not go? Considerations for generating pseudo-absences for telemetry-based habitat models." Movement Ecology 9:5 https://doi.org/10.1186/s40462-021-00240-2 and are available for download from https://github.com/elhazen/PA-paper 
+- To search and access remotely sensed environmental covariates via NOAA ERDDAP: https://upwell.pfeg.noaa.gov/erddap/index.html 
+- Chlorophyll-a dataset: data title: “erdMBchlamday_LonPM180”, https://coastwatch.pfeg.noaa.gov/infog/MB_chla_las.html
+- Sea surface temperature dataset: data title: “jplMURSST41mday”, JPL MUR MEaSUREs Project. 2015. GHRSST Level 4 MUR Global Foundation Sea Surface Temperature Analysis. Ver. 4.1. PO.DAAC, CA, USA. DOI: https://doi.org/10.5067/GHGMR-4FJ04 
+- Bathymetric depth dataset: NOAA National Centers for Environmental Information ETOPO2 database, https://www.doi.org/10.25921/fd45-gt74 
+
 
