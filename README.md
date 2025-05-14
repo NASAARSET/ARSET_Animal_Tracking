@@ -118,6 +118,7 @@ ARSET offers online and in-person trainings for beginners and advanced practitio
 ##### Citations
 
 **This Training:**
+
 (2025). *ARSET - Introduction to the Integration of Animal Tracking and Remote Sensing*. NASA Applied Remote Sensing Training Program (ARSET). <https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-integration-animal-tracking-and-remote-sensing>
 
 **Data Information:**
