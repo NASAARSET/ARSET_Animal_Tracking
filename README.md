@@ -79,6 +79,8 @@ Guest Instructors: Dr. Morgan Gilmour (NASA Ames Research Center), Claire Teitel
 
 ### In this repository
 
+- 0-prep_frigatebird_tracks_ARSET.R
+  - Script to download and prepare frigatebird tracks for use in demo
 -	1-append_evars_ARSET.R
   -	Script to demonstrate downloading and extracting remotely sensed environmental covariates
 -	2-pseudo-absence_ARSET.R
