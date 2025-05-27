@@ -79,28 +79,28 @@ Guest Instructors: Dr. Morgan Gilmour (NASA Ames Research Center), Claire Teitel
 
 ### In this repository
 
-- 0-prep_frigatebird_tracks_ARSET.R
-  - Script to download and prepare frigatebird tracks for use in demo
--	1-append_evars_ARSET.R
-  -	Script to demonstrate downloading and extracting remotely sensed environmental covariates
--	2-pseudo-absence_ARSET.R
-  -	Script to simulate background pseudo-absences for Species Distribution Model
--	3-make_presabs_dataset_ARSET.R
-  -	Script to make presence-absence dataframe that will be used in Species Distribution Model
--	4-BRT_ARSET.R
-  -	Script to run Boosted Regressoin Tree that will be used in Species Distribution Model
--	5-Predict_SDM_ARSET.R
-  -	Script to apply Boosted Regression Tree model to grid of unsampled region
--	6-eval_SDM_ARSET.R
-  -	Script to evaluate Species Distribution Model
--	Functions_for_animal_tracking_ARSET2025.R
-  -	Functions used in ARSET training
--	Deer_SSF.R
-  -	Script to run a step-selection function for a red deer. This script draws from the "amt" R package vignette on step-selection functions: https://cran.r-project.org/web/packages/amt/vignettes/p4_SSF.html
-- LC_500m_crop.tif
-  - MODIS MCD12Q1 Version 6.1 annual land cover product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MCD12Q1.006
-- NDVI_250m_16d_crop.tif
-  - MODIS MCD13Q1 16-day vegetation index product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MOD13Q1.061
+0. 0-prep_frigatebird_tracks_ARSET.R
+   - Script to download and prepare frigatebird tracks for use in demo
+1. 1-append_evars_ARSET.R
+   -	Script to demonstrate downloading and extracting remotely sensed environmental covariates
+2. 2-pseudo-absence_ARSET.R
+   -	Script to simulate background pseudo-absences for Species Distribution Model
+3. 3-make_presabs_dataset_ARSET.R
+   -	Script to make presence-absence dataframe that will be used in Species Distribution Model
+4. 4-BRT_ARSET.R
+   -	Script to run Boosted Regressoin Tree that will be used in Species Distribution Model
+5. 5-Predict_SDM_ARSET.R
+   -	Script to apply Boosted Regression Tree model to grid of unsampled region
+6. 6-eval_SDM_ARSET.R
+   -	Script to evaluate Species Distribution Model
+7. Functions_for_animal_tracking_ARSET2025.R
+   -	Functions used in ARSET training
+8. Deer_SSF.R
+   -	Script to run a step-selection function for a red deer. This script draws from the "amt" R package vignette on step-selection functions: https://cran.r-project.org/web/packages/amt/vignettes/p4_SSF.html
+9. LC_500m_crop.tif
+   - MODIS MCD12Q1 Version 6.1 annual land cover product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MCD12Q1.006
+10. NDVI_250m_16d_crop.tif
+    - MODIS MCD13Q1 16-day vegetation index product, cropped to the area of the deer data. See Deer_SSF.R for data processing steps. DOI: 10.5067/MODIS/MOD13Q1.061
 
 ------------------------------------------------------------------------
 #### About NASA ARSET
