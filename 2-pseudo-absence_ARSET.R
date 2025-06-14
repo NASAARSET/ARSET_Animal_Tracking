@@ -51,7 +51,12 @@ tags<-frigatebird.tracks %>%
   mutate(lc="G")
 
 glimpse(tags)
-#
+
+# NOTE: You can speed up pseudo-absence generation (and subsequent analyses)
+#   by interpolating/subsampling the timestamps (e.g., to 1-hour or 24-hours).
+#   The aniMotum package has some helpful functions and tutorials for this;
+#   the function fit_ssm() works well.
+
 ## Run createbackgroundabsence() in for-loop ----
 
 # Run the for-loop to simulate the pseudoabsences
